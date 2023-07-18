@@ -10,7 +10,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('5|4|3|2|1|Happy|Birthday|Ribha|ღ( ´･ᴗ･` )');
+      S.UI.simulate('3|2|1|Happy|Birthday|Ribha!|ღ( ´･ᴗ･` )');
     }
 
     S.Drawing.loop(function () {
